@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Netlify</title>
+</head>
+<body>
+  <div class="container">
+    <div class="registration_big_box">
+      <form action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+        <div class="registration_text_box">
+          <h1 class="heading">
+            Account settings
+          </h1>
+          <button class="close_button" type="reset">
+          </button>
+        </div>
+        <div class="registration_section">
+          <img class="image" src="./images/avatar.jpg" width="60" height="60" alt="there is a picture of a man wearing glasses">
+          <label class="user_name_label" for="username">
+            USERNAME
+          </label>
+          <input class="user_name" type="text" name="user_name" id="username" placeholder="Enter your username" required>
+          <div class="next_input_box">
+            <div class="first-name_box">
+              <label class="user_name_label first_name" for="firstname">
+                FIRST NAME
+              </label>
+              <input class="user_name first_name" name="user_first_name" type="text" id="firstname" placeholder="Enter your first name" required>
+            </div>
+            <div class="last-name_box">
+              <label class="user_name_label" for="lastname">
+                LAST NAME
+              </label>
+              <input class="user_name last_name" name="user_first_name" type="text" id="lastname" placeholder="Enter your last name" required>
+            </div>
+          </div>
+          <label class="user_name_label" for="email">
+            EMAIL
+          </label>
+          <input class="user_name" name="user_email" id="email" type="email" placeholder="Enter your email" required>
+          <label class="user_name_label" for="useropinion">
+            BIO
+          </label>
+          <textarea class="user_feedback" name="user_opinion" id="useropinion" placeholder="Tel us about youself"></textarea>
+        </div>
+        <div class="button_box">
+          <button class="cancel_buttton" type="button">
+            cancel
+          </button>
+          <button class="save_button" type="submit">
+            save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
